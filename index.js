@@ -128,7 +128,7 @@ app.listen(port, () => {
 
 
 // CRON JOB
-let url = "https://send-mail11-nkfh.onrender.com/ping";
+let url = "https://braintechpublic.onrender.com/ping";
 async function logMessage() {
     console.log('Cron job executed at:', new Date().toLocaleString());
     try {
